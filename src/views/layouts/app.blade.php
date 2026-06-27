@@ -39,6 +39,12 @@
    .btn-secondary{
     background-color:#636363;
    }
+   .dataTable td, .dataTable th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px; /* You must set a max-width for ellipsis to work */
+   }
 </style>
 </head>
 
