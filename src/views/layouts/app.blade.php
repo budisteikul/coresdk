@@ -45,6 +45,29 @@
     text-overflow: ellipsis;
     max-width: 250px; /* You must set a max-width for ellipsis to work */
    }
+
+
+
+
+/* Topbar / Navbar overrides */
+.sidebar {
+  background-color: #4e73df; 
+}
+
+/* Cards and Panels */
+.card-header {
+  background-color: #4e73df;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+.btn-primary:hover {
+    background-color: color-mix(in srgb, #4e73df, black 15%);
+}
+
 </style>
 </head>
 
@@ -54,7 +77,7 @@
   <div id="wrapper">
 
 
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
 
       @if(View::exists('tourcms::layouts.menu'))
           <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
