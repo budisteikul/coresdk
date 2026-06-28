@@ -43,7 +43,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 280px; /* You must set a max-width for ellipsis to work */
+    max-width: 250px; /* You must set a max-width for ellipsis to work */
    }
 </style>
 </head>
