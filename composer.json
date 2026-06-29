@@ -23,5 +23,13 @@
                 "budisteikul\\coresdk\\CoreSDKServiceProvider"
             ]
         }
+    },
+    "config": {
+        "audit": {
+            "ignore": [
+                "dompdf/dompdf",
+                "barryvdh/laravel-dompdf"
+            ]
+        }
     }
 }
