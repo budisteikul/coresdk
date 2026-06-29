@@ -162,7 +162,7 @@
 
         <div class="container-fluid">
          
-          @yield('content')
+          @yield('layout')
 
         </div>
         
