@@ -46,7 +46,12 @@
     max-width: 250px; /* You must set a max-width for ellipsis to work */
    }
 
-
+.scroll-container {
+  width: 100%;
+  overflow-x: auto; /* Adds the horizontal scrollbar only when content overflows */
+  overflow-y: hidden; /* Prevents vertical layout breaks if necessary */
+  -webkit-overflow-scrolling: touch; /* Smooth inertia scrolling for mobile Safari */
+}
 
 
 /* Topbar / Navbar overrides */
