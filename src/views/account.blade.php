@@ -217,10 +217,6 @@ function UPDATE_PASSWORD()
 
   </div>
 </div>
-
-
-
-
-              
+   
 
 @endsection
