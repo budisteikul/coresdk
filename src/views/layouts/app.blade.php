@@ -16,18 +16,21 @@
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <script src="{{ asset('js/admin.js') }}"></script>
+  
+  
   <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
   <link href="{{ asset('vendor/sbadmin2/sb-admin-2.css') }}" rel="stylesheet">
-  
+
   @stack('scripts')
   
 <style>
-   body{
-  color:#000000;
+   
+   .sidebar {
+    background-color: #4e73df; 
    }
    .card-header{
-    color:#FFFFFF;
-    background-color:#446bd6;
+      color:#FFFFFF;
+      background-color:#4e73df;
    }
    .table thead{
     background-color:#636363;
@@ -43,7 +46,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 250px; /* You must set a max-width for ellipsis to work */
+    max-width: 225px; /* You must set a max-width for ellipsis to work */
    }
 
 .scroll-container {
@@ -54,24 +57,8 @@
 }
 
 
-/* Topbar / Navbar overrides */
-.sidebar {
-  background-color: #4e73df; 
-}
 
-/* Cards and Panels */
-.card-header {
-  background-color: #4e73df;
-}
 
-.btn-primary {
-    color: #fff;
-    background-color: #4e73df;
-    border-color: #4e73df;
-}
-.btn-primary:hover {
-    background-color: color-mix(in srgb, #4e73df, black 15%);
-}
 
 </style>
 </head>
